@@ -1,0 +1,16 @@
+C:\Users\votha\source\repos\WinFormsBasic\SimpleCalc_App\bin\Debug\net8.0-windows\SimpleCalc_App.exe
+C:\Users\votha\source\repos\WinFormsBasic\SimpleCalc_App\bin\Debug\net8.0-windows\SimpleCalc_App.deps.json
+C:\Users\votha\source\repos\WinFormsBasic\SimpleCalc_App\bin\Debug\net8.0-windows\SimpleCalc_App.runtimeconfig.json
+C:\Users\votha\source\repos\WinFormsBasic\SimpleCalc_App\bin\Debug\net8.0-windows\SimpleCalc_App.dll
+C:\Users\votha\source\repos\WinFormsBasic\SimpleCalc_App\bin\Debug\net8.0-windows\SimpleCalc_App.pdb
+C:\Users\votha\source\repos\WinFormsBasic\SimpleCalc_App\obj\Debug\net8.0-windows\SimpleCalc_App.Form1.resources
+C:\Users\votha\source\repos\WinFormsBasic\SimpleCalc_App\obj\Debug\net8.0-windows\SimpleCalc_App.csproj.GenerateResource.cache
+C:\Users\votha\source\repos\WinFormsBasic\SimpleCalc_App\obj\Debug\net8.0-windows\SimpleCalc_App.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\votha\source\repos\WinFormsBasic\SimpleCalc_App\obj\Debug\net8.0-windows\SimpleCalc_App.AssemblyInfoInputs.cache
+C:\Users\votha\source\repos\WinFormsBasic\SimpleCalc_App\obj\Debug\net8.0-windows\SimpleCalc_App.AssemblyInfo.cs
+C:\Users\votha\source\repos\WinFormsBasic\SimpleCalc_App\obj\Debug\net8.0-windows\SimpleCalc_App.csproj.CoreCompileInputs.cache
+C:\Users\votha\source\repos\WinFormsBasic\SimpleCalc_App\obj\Debug\net8.0-windows\SimpleCalc_App.dll
+C:\Users\votha\source\repos\WinFormsBasic\SimpleCalc_App\obj\Debug\net8.0-windows\refint\SimpleCalc_App.dll
+C:\Users\votha\source\repos\WinFormsBasic\SimpleCalc_App\obj\Debug\net8.0-windows\SimpleCalc_App.pdb
+C:\Users\votha\source\repos\WinFormsBasic\SimpleCalc_App\obj\Debug\net8.0-windows\SimpleCalc_App.genruntimeconfig.cache
+C:\Users\votha\source\repos\WinFormsBasic\SimpleCalc_App\obj\Debug\net8.0-windows\ref\SimpleCalc_App.dll
