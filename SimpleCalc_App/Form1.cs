@@ -1,6 +1,3 @@
-using System.Linq.Expressions;
-using System.Runtime.CompilerServices;
-
 namespace SimpleCalc_App
 {
     public partial class Form1 : Form

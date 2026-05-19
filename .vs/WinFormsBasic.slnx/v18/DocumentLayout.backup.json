@@ -3,20 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\votha\\source\\repos\\WinFormsBasic\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FE1A52FF-243A-4668-AB0B-84B58C94913F}|StudentManagementBasic\\StudentManagementBasic.csproj|c:\\users\\votha\\source\\repos\\winformsbasic\\studentmanagementbasic\\viewmodel\\sinhvienviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE1A52FF-243A-4668-AB0B-84B58C94913F}|StudentManagementBasic\\StudentManagementBasic.csproj|solutionrelative:studentmanagementbasic\\viewmodel\\sinhvienviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FE1A52FF-243A-4668-AB0B-84B58C94913F}|StudentManagementBasic\\StudentManagementBasic.csproj|c:\\users\\votha\\source\\repos\\winformsbasic\\studentmanagementbasic\\forms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE1A52FF-243A-4668-AB0B-84B58C94913F}|StudentManagementBasic\\StudentManagementBasic.csproj|solutionrelative:studentmanagementbasic\\forms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE1A52FF-243A-4668-AB0B-84B58C94913F}|StudentManagementBasic\\StudentManagementBasic.csproj|c:\\users\\votha\\source\\repos\\winformsbasic\\studentmanagementbasic\\forms\\addstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE1A52FF-243A-4668-AB0B-84B58C94913F}|StudentManagementBasic\\StudentManagementBasic.csproj|solutionrelative:studentmanagementbasic\\forms\\addstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE1A52FF-243A-4668-AB0B-84B58C94913F}|StudentManagementBasic\\StudentManagementBasic.csproj|c:\\users\\votha\\source\\repos\\winformsbasic\\studentmanagementbasic\\forms\\addstudent.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE1A52FF-243A-4668-AB0B-84B58C94913F}|StudentManagementBasic\\StudentManagementBasic.csproj|solutionrelative:studentmanagementbasic\\forms\\addstudent.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE1A52FF-243A-4668-AB0B-84B58C94913F}|StudentManagementBasic\\StudentManagementBasic.csproj|c:\\users\\votha\\source\\repos\\winformsbasic\\studentmanagementbasic\\forms\\addstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FE1A52FF-243A-4668-AB0B-84B58C94913F}|StudentManagementBasic\\StudentManagementBasic.csproj|solutionrelative:studentmanagementbasic\\forms\\addstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FE1A52FF-243A-4668-AB0B-84B58C94913F}|StudentManagementBasic\\StudentManagementBasic.csproj|c:\\users\\votha\\source\\repos\\winformsbasic\\studentmanagementbasic\\forms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{FE1A52FF-243A-4668-AB0B-84B58C94913F}|StudentManagementBasic\\StudentManagementBasic.csproj|solutionrelative:studentmanagementbasic\\forms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FE1A52FF-243A-4668-AB0B-84B58C94913F}|StudentManagementBasic\\StudentManagementBasic.csproj|c:\\users\\votha\\source\\repos\\winformsbasic\\studentmanagementbasic\\forms\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE1A52FF-243A-4668-AB0B-84B58C94913F}|StudentManagementBasic\\StudentManagementBasic.csproj|solutionrelative:studentmanagementbasic\\forms\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FE1A52FF-243A-4668-AB0B-84B58C94913F}|StudentManagementBasic\\StudentManagementBasic.csproj|c:\\users\\votha\\source\\repos\\winformsbasic\\studentmanagementbasic\\data\\data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE1A52FF-243A-4668-AB0B-84B58C94913F}|StudentManagementBasic\\StudentManagementBasic.csproj|solutionrelative:studentmanagementbasic\\data\\data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FE1A52FF-243A-4668-AB0B-84B58C94913F}|StudentManagementBasic\\StudentManagementBasic.csproj|c:\\users\\votha\\source\\repos\\winformsbasic\\studentmanagementbasic\\forms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE1A52FF-243A-4668-AB0B-84B58C94913F}|StudentManagementBasic\\StudentManagementBasic.csproj|solutionrelative:studentmanagementbasic\\forms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FE1A52FF-243A-4668-AB0B-84B58C94913F}|StudentManagementBasic\\StudentManagementBasic.csproj|c:\\users\\votha\\source\\repos\\winformsbasic\\studentmanagementbasic\\models\\sinhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE1A52FF-243A-4668-AB0B-84B58C94913F}|StudentManagementBasic\\StudentManagementBasic.csproj|solutionrelative:studentmanagementbasic\\models\\sinhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,33 +38,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MainForm.cs",
-              "DocumentMoniker": "C:\\Users\\votha\\source\\repos\\WinFormsBasic\\StudentManagementBasic\\Forms\\MainForm.cs",
-              "RelativeDocumentMoniker": "StudentManagementBasic\\Forms\\MainForm.cs",
-              "ToolTip": "C:\\Users\\votha\\source\\repos\\WinFormsBasic\\StudentManagementBasic\\Forms\\MainForm.cs*",
-              "RelativeToolTip": "StudentManagementBasic\\Forms\\MainForm.cs*",
-              "ViewState": "AgIAAIcBAAAAAAAAAAAwwJIBAAAlAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "SinhVien.cs",
+              "DocumentMoniker": "C:\\Users\\votha\\source\\repos\\WinFormsBasic\\StudentManagementBasic\\Models\\SinhVien.cs",
+              "RelativeDocumentMoniker": "StudentManagementBasic\\Models\\SinhVien.cs",
+              "ToolTip": "C:\\Users\\votha\\source\\repos\\WinFormsBasic\\StudentManagementBasic\\Models\\SinhVien.cs",
+              "RelativeToolTip": "StudentManagementBasic\\Models\\SinhVien.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAA1wD0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-19T08:02:53.621Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MainForm.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\votha\\source\\repos\\WinFormsBasic\\StudentManagementBasic\\Forms\\MainForm.Designer.cs",
-              "RelativeDocumentMoniker": "StudentManagementBasic\\Forms\\MainForm.Designer.cs",
-              "ToolTip": "C:\\Users\\votha\\source\\repos\\WinFormsBasic\\StudentManagementBasic\\Forms\\MainForm.Designer.cs*",
-              "RelativeToolTip": "StudentManagementBasic\\Forms\\MainForm.Designer.cs*",
-              "ViewState": "AgIAABgAAAAAAAAAAAAmwC4AAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-19T08:04:45.84Z",
+              "WhenOpened": "2026-05-19T14:26:05.498Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
@@ -75,27 +73,78 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "SinhVienViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\votha\\source\\repos\\WinFormsBasic\\StudentManagementBasic\\ViewModel\\SinhVienViewModel.cs",
-              "RelativeDocumentMoniker": "StudentManagementBasic\\ViewModel\\SinhVienViewModel.cs",
-              "ToolTip": "C:\\Users\\votha\\source\\repos\\WinFormsBasic\\StudentManagementBasic\\ViewModel\\SinhVienViewModel.cs",
-              "RelativeToolTip": "StudentManagementBasic\\ViewModel\\SinhVienViewModel.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAASwBkAAAAaAAAAAAAAAA==",
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "C:\\Users\\votha\\source\\repos\\WinFormsBasic\\StudentManagementBasic\\Forms\\MainForm.cs",
+              "RelativeDocumentMoniker": "StudentManagementBasic\\Forms\\MainForm.cs",
+              "ToolTip": "C:\\Users\\votha\\source\\repos\\WinFormsBasic\\StudentManagementBasic\\Forms\\MainForm.cs*",
+              "RelativeToolTip": "StudentManagementBasic\\Forms\\MainForm.cs*",
+              "ViewState": "AgIAAEcBAAAAAAAAAAAowFQBAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-19T08:23:47.731Z",
+              "WhenOpened": "2026-05-19T14:40:55.582Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "MainForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\votha\\source\\repos\\WinFormsBasic\\StudentManagementBasic\\Forms\\MainForm.cs",
               "RelativeDocumentMoniker": "StudentManagementBasic\\Forms\\MainForm.cs",
               "ToolTip": "C:\\Users\\votha\\source\\repos\\WinFormsBasic\\StudentManagementBasic\\Forms\\MainForm.cs [Design]*",
               "RelativeToolTip": "StudentManagementBasic\\Forms\\MainForm.cs [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-19T08:02:27.682Z",
+              "WhenOpened": "2026-05-19T14:40:53.847Z",
               "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Data.cs",
+              "DocumentMoniker": "C:\\Users\\votha\\source\\repos\\WinFormsBasic\\StudentManagementBasic\\Data\\Data.cs",
+              "RelativeDocumentMoniker": "StudentManagementBasic\\Data\\Data.cs",
+              "ToolTip": "C:\\Users\\votha\\source\\repos\\WinFormsBasic\\StudentManagementBasic\\Data\\Data.cs",
+              "RelativeToolTip": "StudentManagementBasic\\Data\\Data.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-19T14:36:11.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AddStudent.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\votha\\source\\repos\\WinFormsBasic\\StudentManagementBasic\\Forms\\AddStudent.cs",
+              "RelativeDocumentMoniker": "StudentManagementBasic\\Forms\\AddStudent.cs",
+              "ToolTip": "C:\\Users\\votha\\source\\repos\\WinFormsBasic\\StudentManagementBasic\\Forms\\AddStudent.cs [Design]",
+              "RelativeToolTip": "StudentManagementBasic\\Forms\\AddStudent.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-19T14:34:45.978Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AddStudent.cs",
+              "DocumentMoniker": "C:\\Users\\votha\\source\\repos\\WinFormsBasic\\StudentManagementBasic\\Forms\\AddStudent.cs",
+              "RelativeDocumentMoniker": "StudentManagementBasic\\Forms\\AddStudent.cs",
+              "ToolTip": "C:\\Users\\votha\\source\\repos\\WinFormsBasic\\StudentManagementBasic\\Forms\\AddStudent.cs",
+              "RelativeToolTip": "StudentManagementBasic\\Forms\\AddStudent.cs",
+              "ViewState": "AgIAADwBAAAAAAAAAAAAwMACAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-19T14:34:09.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AddStudent.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\votha\\source\\repos\\WinFormsBasic\\StudentManagementBasic\\Forms\\AddStudent.Designer.cs",
+              "RelativeDocumentMoniker": "StudentManagementBasic\\Forms\\AddStudent.Designer.cs",
+              "ToolTip": "C:\\Users\\votha\\source\\repos\\WinFormsBasic\\StudentManagementBasic\\Forms\\AddStudent.Designer.cs",
+              "RelativeToolTip": "StudentManagementBasic\\Forms\\AddStudent.Designer.cs",
+              "ViewState": "AgIAAFsBAAAAAAAAAAAewEMBAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-19T14:29:43.185Z",
+              "EditorCaption": ""
             }
           ]
         }

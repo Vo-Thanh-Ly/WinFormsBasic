@@ -43,6 +43,7 @@
             dataGridView1.Name = "dataGridView1";
             dataGridView1.Size = new Size(776, 306);
             dataGridView1.TabIndex = 0;
+            dataGridView1.CellPainting += dataGridView1_CellPainting;
             // 
             // tenSinhVien_Lable
             // 
@@ -72,6 +73,7 @@
             themSinhVien_button.TabIndex = 3;
             themSinhVien_button.Text = "Thêm";
             themSinhVien_button.UseVisualStyleBackColor = false;
+            themSinhVien_button.Click += themSinhVien_button_Click;
             // 
             // MainForm
             // 
@@ -84,7 +86,6 @@
             Controls.Add(dataGridView1);
             Name = "MainForm";
             Text = "Thêm xóa sinh viên";
-            Load += Form1_Load;
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
             PerformLayout();

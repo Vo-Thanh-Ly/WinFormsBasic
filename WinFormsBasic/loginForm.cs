@@ -16,7 +16,7 @@ namespace WinFormsBasic
             {
                 MessageBox.Show("Thiếu tên đăng nhập hoặc mật khẩu", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-            else if (String.Equals(username, "Admin",StringComparison.Ordinal) && String.Equals(password, "12345",StringComparison.Ordinal))
+            else if (String.Equals(username, "Admin", StringComparison.Ordinal) && String.Equals(password, "12345", StringComparison.Ordinal))
             {
                 MessageBox.Show("Đăng nhập thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }

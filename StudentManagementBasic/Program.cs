@@ -1,4 +1,3 @@
-using Microsoft.EntityFrameworkCore;
 using StudentManagementBasic.Data;
 using StudentManagementBasic.Forms;
 
@@ -12,7 +11,7 @@ namespace StudentManagementBasic
             ApplicationConfiguration.Initialize();
 
             // Cách 1: Không dùng DI - Form tự tạo DbContext
-           // Application.Run(new Form1());
+            // Application.Run(new Form1());
 
             // HOẶC Cách 2: Có DI - Inject DbContext vào Form
             Application.Run(new MainForm(new AppDbContext()));
