@@ -32,7 +32,6 @@
             tenSinhVien_Lable = new Label();
             tenSinhVien_textBox = new TextBox();
             themSinhVien_button = new Button();
-            xoaSinhVien_button = new Button();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
@@ -74,30 +73,16 @@
             themSinhVien_button.Text = "Thêm";
             themSinhVien_button.UseVisualStyleBackColor = false;
             // 
-            // xoaSinhVien_button
-            // 
-            xoaSinhVien_button.BackColor = Color.Red;
-            xoaSinhVien_button.FlatStyle = FlatStyle.Popup;
-            xoaSinhVien_button.Font = new Font("Segoe UI Emoji", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            xoaSinhVien_button.ForeColor = SystemColors.ControlLightLight;
-            xoaSinhVien_button.Location = new Point(629, 56);
-            xoaSinhVien_button.Name = "xoaSinhVien_button";
-            xoaSinhVien_button.Size = new Size(75, 23);
-            xoaSinhVien_button.TabIndex = 4;
-            xoaSinhVien_button.Text = "Xóa";
-            xoaSinhVien_button.UseVisualStyleBackColor = false;
-            // 
-            // Form1
+            // MainForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(xoaSinhVien_button);
             Controls.Add(themSinhVien_button);
             Controls.Add(tenSinhVien_textBox);
             Controls.Add(tenSinhVien_Lable);
             Controls.Add(dataGridView1);
-            Name = "Form1";
+            Name = "MainForm";
             Text = "Thêm xóa sinh viên";
             Load += Form1_Load;
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
@@ -111,6 +96,5 @@
         private Label tenSinhVien_Lable;
         private TextBox tenSinhVien_textBox;
         private Button themSinhVien_button;
-        private Button xoaSinhVien_button;
     }
 }
