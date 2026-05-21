@@ -5,7 +5,7 @@ namespace StudentManagementBasic.Data
 {
     public class AppDbContext : DbContext
     {
-      
+
 
         // Constructor không tham số - BẮT BUỘC cho EF Tools design-time
         public AppDbContext() { }

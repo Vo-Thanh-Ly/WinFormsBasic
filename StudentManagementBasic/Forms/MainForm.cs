@@ -22,6 +22,7 @@ namespace StudentManagementBasic.Forms
         // =========================
         public MainForm(AppDbContext context)
         {
+            // Gọi phương thức khởi tạo giao diện do Visual Studio tạo ra
             InitializeComponent();
 
             _context = context;
@@ -30,102 +31,158 @@ namespace StudentManagementBasic.Forms
             LoadDataStudent();
             RegisterEvents();
         }
-
-        // =========================
-        // FORM LOAD
-        // =========================
-
-
-        // =========================
-        // INITIALIZE GRID
-        // =========================
         // Đây là nơi chúng ta cấu hình DataGridView để hiển thị dữ liệu sinh viên
+        //private void InitializeGrid()
+        //{
+        //    dataGridView1.AutoGenerateColumns = false;
+        //    dataGridView1.AllowUserToAddRows = false;
+        //    dataGridView1.RowTemplate.Height = 40;
+        //    dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+        //    dataGridView1.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
+        //    dataGridView1.ReadOnly = true;
+
+        //    // Tạo cột "Mã sinh viên" và liên kết với thuộc tính MaSV trong SinhVienViewModel
+        //    dataGridView1.Columns.Add(
+        //        new DataGridViewTextBoxColumn
+        //        {
+        //            Name = "MaSV",
+        //            HeaderText = "Mã sinh viên",
+        //            DataPropertyName = "MaSV"
+        //        });
+
+        //    // =========================
+        //    // COLUMN HỌ TÊN
+        //    // =========================
+        //    dataGridView1.Columns.Add(
+        //        new DataGridViewTextBoxColumn
+        //        {
+        //            Name = "HoTen",
+        //            HeaderText = "Họ tên",
+        //            DataPropertyName = "HoTen"
+        //        });
+
+        //    // =========================
+        //    // COLUMN GIỚI TÍNH
+        //    // =========================
+        //    dataGridView1.Columns.Add(
+        //        new DataGridViewTextBoxColumn
+        //        {
+        //            Name = "GioiTinh",
+        //            HeaderText = "Giới tính",
+        //            DataPropertyName = "GioiTinh"
+        //        });
+
+        //    // =========================
+        //    // COLUMN LỚP
+        //    // =========================
+        //    dataGridView1.Columns.Add(
+        //        new DataGridViewTextBoxColumn
+        //        {
+        //            Name = "Lop",
+        //            HeaderText = "Lớp",
+        //            DataPropertyName = "Lop"
+        //        });
+
+        //    // =========================
+        //    // COLUMN NGÀY SINH
+        //    // =========================
+        //    dataGridView1.Columns.Add(
+        //        new DataGridViewTextBoxColumn
+        //        {
+        //            Name = "NgaySinh",
+        //            HeaderText = "Ngày sinh",
+        //            DataPropertyName = "NgaySinh"
+        //        });
+
+        //    // =========================
+        //    // ACTION COLUMN
+        //    // =========================
+        //    dataGridView1.Columns.Add(
+        //        new DataGridViewTextBoxColumn
+        //        {
+        //            Name = "Action",
+        //            HeaderText = "Thao tác",
+        //            Width = 220
+        //        });
+        //}
+
         private void InitializeGrid()
         {
-            // Tắt tự động tạo cột vì chúng ta sẽ tạo cột thủ công
             dataGridView1.AutoGenerateColumns = false;
-            // Không cho phép người dùng thêm hàng mới trực tiếp trên DataGridView
             dataGridView1.AllowUserToAddRows = false;
-            // Đặt chiều cao hàng để có đủ không gian cho 3 nút trong cột "Thao tác"
             dataGridView1.RowTemplate.Height = 40;
-            // Đặt chế độ tự động điều chỉnh chiều rộng cột để lấp đầy DataGridView
-            dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
-            // Chỉ cho phép chọn toàn bộ hàng khi click vào một ô
+            // THAY ĐỔI: Không dùng Fill nữa
+            dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.None;
             dataGridView1.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
-            // Đặt DataGridView ở chế độ chỉ đọc để người dùng không thể chỉnh sửa trực tiếp
             dataGridView1.ReadOnly = true;
 
-            // =========================
-            // COLUMN MÃ SV
-            // =========================
-            // Tạo cột "Mã sinh viên" và liên kết với thuộc tính MaSV trong SinhVienViewModel
+            // Cột Mã sinh viên - co giãn theo tỷ lệ
             dataGridView1.Columns.Add(
                 new DataGridViewTextBoxColumn
                 {
                     Name = "MaSV",
                     HeaderText = "Mã sinh viên",
-                    DataPropertyName = "MaSV"
+                    DataPropertyName = "MaSV",
+                    Width = 100,
+                    AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill // Chỉ cột này fill
                 });
 
-            // =========================
-            // COLUMN HỌ TÊN
-            // =========================
+            // Cột Họ tên - co giãn
             dataGridView1.Columns.Add(
                 new DataGridViewTextBoxColumn
                 {
                     Name = "HoTen",
                     HeaderText = "Họ tên",
-                    DataPropertyName = "HoTen"
+                    DataPropertyName = "HoTen",
+                    Width = 150,
+                    AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill
                 });
 
-            // =========================
-            // COLUMN GIỚI TÍNH
-            // =========================
+            // Cột Giới tính
             dataGridView1.Columns.Add(
                 new DataGridViewTextBoxColumn
                 {
                     Name = "GioiTinh",
                     HeaderText = "Giới tính",
-                    DataPropertyName = "GioiTinh"
+                    DataPropertyName = "GioiTinh",
+                    Width = 80,
+                    AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill
                 });
 
-            // =========================
-            // COLUMN LỚP
-            // =========================
+            // Cột Lớp
             dataGridView1.Columns.Add(
                 new DataGridViewTextBoxColumn
                 {
                     Name = "Lop",
                     HeaderText = "Lớp",
-                    DataPropertyName = "Lop"
+                    DataPropertyName = "Lop",
+                    Width = 100,
+                    AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill
                 });
 
-            // =========================
-            // COLUMN NGÀY SINH
-            // =========================
+            // Cột Ngày sinh
             dataGridView1.Columns.Add(
                 new DataGridViewTextBoxColumn
                 {
                     Name = "NgaySinh",
                     HeaderText = "Ngày sinh",
-                    DataPropertyName = "NgaySinh"
+                    DataPropertyName = "NgaySinh",
+                    Width = 100,
+                    AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill
                 });
 
-            // =========================
-            // ACTION COLUMN
-            // =========================
+            // Cột Action - CỐ ĐỊNH, không co giãn
             dataGridView1.Columns.Add(
                 new DataGridViewTextBoxColumn
                 {
                     Name = "Action",
                     HeaderText = "Thao tác",
-                    Width = 220
+                    Width = 220,
+                    AutoSizeMode = DataGridViewAutoSizeColumnMode.None, // Quan trọng!
+                    Frozen = false // Không cố định vị trí (có thể cuộn ngang)
                 });
         }
 
-        // =========================
-        // REGISTER EVENTS
-        // =========================
         // Đây là nơi chúng ta đăng ký các sự kiện cho TextBox tìm kiếm và DataGridView
         private void RegisterEvents()
         {
@@ -146,18 +203,13 @@ namespace StudentManagementBasic.Forms
                 .Select(s => new SinhVienViewModel
                 {
                     MaSV = s.MaSV,
-
                     HoTen = s.HoTen,
-
                     GioiTinh = s.GioiTinh,
-
                     Lop = s.Lop.TenLop ?? "null",
-
                     NgaySinh = s.NgaySinh
                         .ToString("dd/MM/yyyy")
                 })
                 .ToList();
-
             dataGridView1.DataSource = students;
         }
 
@@ -306,14 +358,19 @@ namespace StudentManagementBasic.Forms
                         + selectedStudent.HoTen);
                 }
 
-                // =========================
-                // XÓA
-                // =========================
                 else if (x >= 65 && x <= 120)
                 {
-                    MessageBox.Show(
-                        "Xóa sinh viên: "
-                        + selectedStudent.HoTen);
+                    // Ép đúng kiểu ViewModel
+                    var selectedStudentVM = (SinhVienViewModel)dataGridView1.CurrentRow.DataBoundItem;
+
+                    // Chỉ truyền ID thôi
+                    using (DeleteStudentForm deleteForm = new DeleteStudentForm(selectedStudentVM.MaSV))
+                    {
+                        if (deleteForm.ShowDialog() == DialogResult.OK && deleteForm.IsDeleted)
+                        {
+                            LoadDataStudent();
+                        }
+                    }
                 }
 
                 // =========================
@@ -321,11 +378,26 @@ namespace StudentManagementBasic.Forms
                 // =========================
                 else if (x >= 125 && x <= 200)
                 {
-                    MessageBox.Show(
-                        "Chi tiết sinh viên: "
-                        + selectedStudent.HoTen);
+
+                    // Ép đúng kiểu ViewModel
+                    var selectedStudentVM = (SinhVienViewModel)dataGridView1.CurrentRow.DataBoundItem;
+
+                    // Chỉ truyền ID thôi
+                    using (StudentDetailsForm detailsForm = new StudentDetailsForm(selectedStudentVM.MaSV))
+                    {
+                        //if (detailsForm.ShowDialog() == DialogResult.OK && detailsForm.IsDeleted)
+                        //{
+                        //    LoadDataStudent();
+                        //}
+                        detailsForm.ShowDialog();
+                    }
                 }
             }
+        }
+
+        private void OpenDeleteStudentForm()
+        {
+            throw new NotImplementedException();
         }
 
         private void themSinhVien_button_Click(object sender, EventArgs e)
@@ -339,13 +411,11 @@ namespace StudentManagementBasic.Forms
                 {
                     // Lấy dữ liệu từ form con
                     SinhVien newStudent = addStudentForm.AddedStudent;
-
-                    // Lưu vào database
-                    SaveToDatabase(newStudent);
+                    MessageBox.Show("Mở form thêm sinh viên mới..." + newStudent.Lop.MaLop,
+                                      "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
                     // Cập nhật lại DataGridView
                     LoadDataStudent();
-
                     MessageBox.Show($"Đã thêm sinh viên: {newStudent.HoTen}",
                         "Thành công", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
@@ -356,6 +426,7 @@ namespace StudentManagementBasic.Forms
                 }
             } // using sẽ tự động dispose form con
         }
+
 
         private void SaveToDatabase(SinhVien newStudent)
         {

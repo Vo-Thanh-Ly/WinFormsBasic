@@ -121,3 +121,6 @@ C:\Users\votha\source\repos\WinFormsBasic\StudentManagementBasic\obj\Debug\net8.
 C:\Users\votha\source\repos\WinFormsBasic\StudentManagementBasic\obj\Debug\net8.0-windows\ref\StudentManagementBasic.dll
 C:\Users\votha\source\repos\WinFormsBasic\StudentManagementBasic\obj\Debug\net8.0-windows\StudentManagementBasic.Forms.AddStudent.resources
 C:\Users\votha\source\repos\WinFormsBasic\StudentManagementBasic\obj\Debug\net8.0-windows\StudentManagementBasic.sourcelink.json
+C:\Users\votha\source\repos\WinFormsBasic\StudentManagementBasic\obj\Debug\net8.0-windows\StudentManagementBasic.Forms.DeleteStudentForm.resources
+C:\Users\votha\source\repos\WinFormsBasic\StudentManagementBasic\obj\Debug\net8.0-windows\StudentManagementBasic.Forms.StudentDetailsForm.resources
+C:\Users\votha\source\repos\WinFormsBasic\StudentManagementBasic\obj\Debug\net8.0-windows\StudentManagementBasic.Forms.UpdateStudentForm.resources
