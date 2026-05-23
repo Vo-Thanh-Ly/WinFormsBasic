@@ -1,8 +1,5 @@
 <Solution>
   <Folder Name="/Desktop_UI_Essentials/">
-    <Project Path="QuanLiSinhVien/StudentManagement.csproj" />
-    <Project Path="SimpleCalc_App/SimpleCalc_App.csproj" />
     <Project Path="StudentManagementBasic/StudentManagementBasic.csproj" Id="fe1a52ff-243a-4668-ab0b-84b58c94913f" />
-    <Project Path="WinFormsBasic/WinFormsBasic.csproj" />
   </Folder>
 </Solution>
